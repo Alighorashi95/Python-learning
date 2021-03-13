@@ -1,2 +1,3 @@
+from math import *
 my_num = -5
-print(round(3.2))
+print(floor(3.7))
