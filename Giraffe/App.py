@@ -1,2 +1,2 @@
 
-print("Giraffe\"Academy")
+print("Giraffe\Academy")
