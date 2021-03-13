@@ -1,2 +1,2 @@
-phrase = "Giraffes Academy"
-print(phrase.upper().isupper())
+phrase = "Giraffe Academy"
+print(len(phrase))
