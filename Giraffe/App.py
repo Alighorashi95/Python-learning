@@ -1,2 +1,2 @@
-
-print("Giraffe\Academy")
+phrase = "Giraffes Academy"
+print(phrase)
