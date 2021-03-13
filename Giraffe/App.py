@@ -1,2 +1,2 @@
-phrase = "Giraffe Academy"
-print(phrase.replace("Giraffe", "Elephant"))
+my_num = 5
+print(my_num)
