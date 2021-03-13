@@ -1,2 +1,2 @@
 phrase = "Giraffes Academy"
-print(phrase)
+print(phrase + " is cool")
