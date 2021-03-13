@@ -1,2 +1,2 @@
 phrase = "Giraffe Academy"
-print(len(phrase))
+print(phrase[0])
