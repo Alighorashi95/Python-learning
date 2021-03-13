@@ -1,2 +1,2 @@
 phrase = "Giraffe Academy"
-print(phrase[0])
+print(phrase.index("Acad"))
