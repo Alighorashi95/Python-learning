@@ -1,2 +1,2 @@
 phrase = "Giraffes Academy"
-print(phrase.islower())
+print(phrase.upper().isupper())
