@@ -1,16 +1,6 @@
 
-monthConversions = {
-    "Jan" : "January",
-    "Feb" : "February",
-    "Mar" : "March",
-    "Apr" : "April",
-    "May" : "May",
-    "Jun" : "June",
-    "Jul" : "July",
-    "Aug" : "August",
-    "Sep" : "September",
-    "Oct" : "October",
-    "Nov" : "November",
-    "Dec" : "December",
-}
-print(monthConversions.get(input("Enter the Key: "), "Not a valid Key"))
+i = 1
+while i <= 10:
+    print(i)
+    i += 1
+print("Done with Loop")
