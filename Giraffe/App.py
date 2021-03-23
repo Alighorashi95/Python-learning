@@ -1,7 +1,8 @@
 
-def raise_to_power(base_num, power_num):
-    result = 1
-    for index in range(power_num):
-        result *= base_num
-    return result
-print(raise_to_power(float(input("Enter the base_num: ")), int(input("Enter the power_num: "))))
+number_grid = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [0]
+]
+print(number_grid[0][0])
