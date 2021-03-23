@@ -1,6 +1,6 @@
 
-'''
-Hi, I am Ali
-It's cool that you are here...
-'''
-print("Comments are fun")
+try:
+    number = int(input("Enter a number: "))
+    print(number)
+except:
+    print("Invalid Input!")
