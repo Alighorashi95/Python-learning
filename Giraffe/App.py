@@ -4,4 +4,4 @@ def raise_to_power(base_num, power_num):
     for index in range(power_num):
         result *= base_num
     return result
-print(raise_to_power(3, 2))
+print(raise_to_power(float(input("Enter the base_num: ")), int(input("Enter the power_num: "))))
