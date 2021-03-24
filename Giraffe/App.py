@@ -1,10 +1,5 @@
 
 
-try:
-    value = 10 / 0
-    number = int(input("Enter a number: "))
-    print(number)
-except ZeroDivisionError as err:
-    print(err)
-except:
-    print("Invalid Input!")
+employees_file = open("employees.txt", "r")
+
+employees_file.close()
