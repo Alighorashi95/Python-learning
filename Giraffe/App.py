@@ -1,4 +1,5 @@
+from Student import Student
 
-import usefull_tools
+student1 = Student("Jim", "Business", 3.1, False)
+print(student1.name)
 
-print(usefull_tools.roll_dice(10))
