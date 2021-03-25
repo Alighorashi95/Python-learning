@@ -1,6 +1,5 @@
 
 
-employees_file = open("employees.txt", "r")
-for employee in employees_file.readlines():
-    print(employee)
+employees_file = open("employees.txt", "a")
+employees_file.write("Toby - Human Resources")
 employees_file.close()
