@@ -1,6 +1,7 @@
 
 mylist = ["banana", "cherry", "apple"]
-print(len(mylist))
+mylist.append("lemon")
+print(mylist)
 
 mylist2 = list()
 print(mylist2)
