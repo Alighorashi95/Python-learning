@@ -1,5 +1,4 @@
 
 mylist = ["banana", "cherry", "apple"]
-item = mylist.pop()
-print(item)
+item = mylist.remove("cherry")
 print(mylist)
