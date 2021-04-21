@@ -1,9 +1,6 @@
 
 mylist = ["banana", "cherry", "apple"]
-if "lemon" in mylist:
-    print("Yes")
-else:
-    print("No")
+print(len(mylist))
 
 mylist2 = list()
 print(mylist2)
