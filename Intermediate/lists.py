@@ -1,5 +1,5 @@
 
-mylist = ["banana", "cherry", "apple"]
+mylist = [4, 3, 1, -1, -5, 10]
 print(mylist)
-item = mylist.reverse()
+item = mylist.sort()
 print(mylist)
