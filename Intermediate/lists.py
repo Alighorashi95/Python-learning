@@ -1,6 +1,7 @@
 
 mylist = ["banana", "cherry", "apple"]
-print(mylist)
+item = mylist[1]
+print(item)
 
 mylist2 = list()
 print(mylist2)
