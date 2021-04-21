@@ -1,7 +1,9 @@
 
 mylist = ["banana", "cherry", "apple"]
-for i in mylist:
-    print(i)
+if "lemon" in mylist:
+    print("Yes")
+else:
+    print("No")
 
 mylist2 = list()
 print(mylist2)
