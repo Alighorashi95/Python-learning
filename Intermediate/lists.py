@@ -1,5 +1,5 @@
 
 mylist = ["banana", "cherry", "apple"]
 print(mylist)
-item = mylist.clear()
+item = mylist.reverse()
 print(mylist)
