@@ -1,3 +1,3 @@
 
-mytuple = ("Max", 28, "Boston")
-print(mytuple)
+mytuple = ("Max")
+print(type(mytuple))
