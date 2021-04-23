@@ -1,7 +1,7 @@
 
-my_tuple = "Max", 28, "Boston"
+my_tuple = (0, 1, 2, 3, 4)
 
-name, age, city = my_tuple
-print(name)
-print(age)
-print(city)
+i1, *i2, i3 = my_tuple
+print(i1)
+print(i3)
+print(i2)
