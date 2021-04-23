@@ -1,3 +1,3 @@
 
-mytuple = ("Max")
+mytuple = ("Max",)
 print(type(mytuple))
