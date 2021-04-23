@@ -1,5 +1,7 @@
 
-a = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+my_tuple = "Max", 28, "Boston"
 
-b = a[::-1]
-print(b)
+name, age, city = my_tuple
+print(name)
+print(age)
+print(city)
