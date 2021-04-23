@@ -1,8 +1,5 @@
 
-my_tuple = ("a", "p", "p", "l", "e")
+a = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
-my_list = list(my_tuple)
-print(my_list)
-
-my_tuple2 = tuple(my_list)
-print(my_tuple2)
+b = a[2:6]
+print(b)
