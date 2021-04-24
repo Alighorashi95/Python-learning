@@ -1,5 +1,5 @@
 mydict = {"name":"Max", "age":28, "city":"New York"}
 print(mydict)
 
-del mydict["name"]
+mydict.pop("age")
 print(mydict)
