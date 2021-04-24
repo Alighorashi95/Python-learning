@@ -1,9 +1,4 @@
-mydict = {"name":"Max", "age":28, "city":"New York"}
-print(mydict)
-
-mydict_cpy = dict(mydict)
-
-
-mydict_cpy["email"] = "max@xyz.com"
-print(mydict)
-print(mydict_cpy)
+my_dict = {"name":"Max", "age":28, "email":"max@xyz.com"}
+my_dict_2 = dict(name= "Mary", age= 27, city= "Boston")
+my_dict.update(my_dict_2)
+print(my_dict)
