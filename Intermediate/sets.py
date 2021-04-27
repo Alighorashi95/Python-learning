@@ -1,2 +1,2 @@
-myset = {}
+myset = set()
 print(type(myset))
