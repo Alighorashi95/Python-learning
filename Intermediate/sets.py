@@ -1,2 +1,2 @@
-myset = set("Hello")
-print(myset)
+myset = {}
+print(type(myset))
