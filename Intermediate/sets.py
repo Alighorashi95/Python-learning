@@ -5,3 +5,5 @@ myset.add(2)
 myset.add(3)
 for i in myset:
     print(i)
+if 1 in myset:
+    print("yes")
