@@ -1,5 +1,4 @@
 
 greetings = "Hello"
-name = "Tom"
-sentence = greetings + " " + name
-print(sentence)
+for i in greetings:
+    print(i)
