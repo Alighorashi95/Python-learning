@@ -1,3 +1,4 @@
 
-my_string = "Hello World"
-print(my_string.replace("Worerld", "Universe"))
+my_string = "how are you doing"
+my_list = my_string.split()
+print(my_list)
