@@ -1,4 +1,6 @@
 
 greetings = "Hello"
-for i in greetings:
-    print(i)
+if "e" in greetings:
+    print("yes")
+else:
+    print("no")
