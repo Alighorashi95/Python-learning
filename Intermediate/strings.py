@@ -1,6 +1,6 @@
 
 greetings = "Hello"
-if "e" in greetings:
+if "ell" in greetings:
     print("yes")
 else:
     print("no")
