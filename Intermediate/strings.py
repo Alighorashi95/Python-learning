@@ -1,3 +1,3 @@
 
 my_string = "Hello World"
-print(my_string.find("pp"))
+print(my_string.count("o"))
