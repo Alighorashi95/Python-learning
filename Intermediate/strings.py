@@ -1,5 +1,5 @@
 
-my_string = "Hello World"
-print(my_string)
-substring = my_string[::-1]
-print(substring)
+greetings = "Hello"
+name = "Tom"
+sentence = greetings + " " + name
+print(sentence)
