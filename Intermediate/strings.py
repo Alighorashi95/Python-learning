@@ -1,6 +1,7 @@
 
-my_string = "how,are,you,doing"
-my_list = my_string.split(",")
+my_list = ["a"] * 6
 print(my_list)
-new_string = "!".join(my_list)
-print(new_string)
+my_string = ""
+for i in my_list:
+    my_string += i
+print(my_string)
