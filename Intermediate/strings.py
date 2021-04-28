@@ -1,6 +1,3 @@
 
-greetings = "Hello"
-if "ell" in greetings:
-    print("yes")
-else:
-    print("no")
+my_string = "   Hello World   "
+print(my_string)
