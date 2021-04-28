@@ -1,5 +1,5 @@
 
 my_string = "Hello World"
 print(my_string)
-char = my_string[4]
-print(char)
+substring = my_string[1:5]
+print(substring)
