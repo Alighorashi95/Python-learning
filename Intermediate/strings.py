@@ -1,3 +1,3 @@
 
 my_string = "Hello World"
-print(my_string.upper())
+print(my_string.lower())
