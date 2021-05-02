@@ -1,7 +1,5 @@
-from itertools import groupby
-persons = [{"name" : "Tim", "age" : 25}, {"name" : "Dan", "age" : 25},
-           {"name" : "Lisa", "age" : 27}, {"name" : "Claire", "age" : 28}]
-a = [1, 2, 3, 4]
-group_obj = groupby(persons, key= lambda x: x["age"])
-for key, value in group_obj:
-    print(key, list(value))
+from itertools import count, cycle, repeat
+for i in count(10):
+    print(i)
+    if i == 15:
+        break
