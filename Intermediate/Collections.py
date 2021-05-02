@@ -1,7 +1,5 @@
-from collections import OrderedDict
-ordered_dict = {}
-ordered_dict["d"] = 4
-ordered_dict["b"] = 2
-ordered_dict["c"] = 3
-ordered_dict["a"] = 1
-print(ordered_dict)
+from collections import defaultdict
+d = defaultdict(int)
+d["a"] = 1
+d["b"] = 3
+print(d)
