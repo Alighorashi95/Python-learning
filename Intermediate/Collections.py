@@ -1,5 +1,6 @@
-from collections import defaultdict
-d = defaultdict(list)
-d["a"] = 1
-d["b"] = 3
-print(d["d"])
+from collections import deque
+d = deque()
+d.append(1)
+d.append(2)
+
+print(d)
