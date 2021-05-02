@@ -1,5 +1,4 @@
-from collections import Counter
-a = "aaaaabbbbccc"
-my_counter = Counter(a)
-print(my_counter)
-print(list(my_counter.elements()))
+from collections import namedtuple
+point = namedtuple("point", "x,y")
+pt = point(1, -4)
+print(pt)
